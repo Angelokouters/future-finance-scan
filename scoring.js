@@ -1,7 +1,7 @@
 // Scorelogica en advieslogica. Pure functies zonder DOM, zodat ze los te testen
 // zijn (npm test) en later ongewijzigd naar een backend kunnen.
 
-import { QUESTIONS, ORDER } from '../data/questions.js';
+import { QUESTIONS, ORDER } from '../questions.js';
 import {
   DIMENSIONS, Q9_TO_DIMENSION, PROFILES, INSIGHT, ECHO, ECHO_QUESTION,
   IMPACT, DECISION, FIRST_STEP
