@@ -1,9 +1,9 @@
 // Finance Growth & Control Quickscan — applicatie (vanilla JS, geen build nodig).
-import { QUESTIONS, TOTAL_QUESTIONS } from './data/questions.js';
-import { DISCLAIMER } from './data/content.js';
-import { flowFor, computeResult } from './logic/scoring.js';
-import { track } from './services/analytics.js';
-import { submitLead, requestReview, sendResultEmail } from './services/api.js';
+import { QUESTIONS, TOTAL_QUESTIONS } from './questions.js';
+import { DISCLAIMER } from './content.js';
+import { flowFor, computeResult } from './scoring.js';
+import { track } from './analytics.js';
+import { submitLead, requestReview, sendResultEmail } from './api.js';
 
 const STORAGE_KEY = 'fgc-quickscan-v1';
 const FREEMAIL = ['gmail.com', 'hotmail.com', 'hotmail.nl', 'outlook.com', 'live.nl', 'live.com', 'yahoo.com', 'icloud.com', 'ziggo.nl', 'kpnmail.nl', 'planet.nl', 'xs4all.nl'];
